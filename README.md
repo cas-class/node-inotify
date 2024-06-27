@@ -7,19 +7,21 @@ When a directory is monitored, inotify will return events for the directory
 itself, and for files inside the directory. [(ref: GNU/Linux Manual)][inotify.7]
 
 ## Installation
-[NodeJS][nodejs_dev] versions 4.x.x up to 11.x.x are currently supported and tested.
+[NodeJS][nodejs_dev] versions 11.x.x up to 21.7.1 are currently supported and tested.
+
+Added d.ts files
 
 ### Install from NPM
 
 ```shell
-    $ npm install inotify
+    $ npm install git+https://github.com/cas-class/node-inotify.git
 ```
 
 ### Install from git
 
 ```shell
 $ npm install node-gyp -g
-$ git clone git://github.com/c4milo/node-inotify.git
+$ git clone https://github.com/cas-class/node-inotify.git
 $ cd node-inotify
 $ node-gyp rebuild
 ```
