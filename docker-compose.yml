@@ -1,6 +1,6 @@
 version: '2'
 
-services: 
+services:
   node:
     build: .
     command: yarn test
